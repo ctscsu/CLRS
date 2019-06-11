@@ -1,8 +1,8 @@
 import numpy as np
 
 
-# 2.1 插入排序非升序
-
+# 2.1 插入排序
+# 插入排序非升序
 def INSERTION_SORT(A, p, r):
     for j in range(p, r + 1):
         key = A[j]
@@ -68,7 +68,6 @@ if __name__ == '__main__':
 
 
 # 2.2 分析算法
-
 # 2.2-2 选择算法
 def SELECT_SORT(A):
     for i in range(len(A) - 1):
